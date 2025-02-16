@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API-RecetarioDominicano", "API-RecetarioDominicano\API-RecetarioDominicano.csproj", "{000E93ED-2E85-4354-92F5-03D31808D102}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{000E93ED-2E85-4354-92F5-03D31808D102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{000E93ED-2E85-4354-92F5-03D31808D102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{000E93ED-2E85-4354-92F5-03D31808D102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{000E93ED-2E85-4354-92F5-03D31808D102}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD920344-CF6D-450A-A105-EBA57EA85944}
+	EndGlobalSection
+EndGlobal
