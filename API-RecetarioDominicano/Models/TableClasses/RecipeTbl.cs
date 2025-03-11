@@ -8,9 +8,12 @@ namespace API_RecetarioDominicano.Models.TableClasses
         public int RecipeId { get; set; }
 
         public int UserId { get; set; }
+        public int CategoryId { get; set; }
+        public string RecipeUrl { get; set; } = null!;
         public string RecipeName { get; set; } = null!;
         public string RecipeDescription { get; set; } = null!;
         public string RecipeInstruction { get; set; } = null!;
+        public List<IngredientTbl> Ingredients { get; set; } = null!;
         public TimeOnly RecipePreparationTime { get; set; }
         public int RecipePortion { get; set; }
         public bool IsExternal { get; set; }

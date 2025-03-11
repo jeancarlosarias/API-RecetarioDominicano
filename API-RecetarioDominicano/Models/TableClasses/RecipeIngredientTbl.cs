@@ -9,6 +9,7 @@ namespace API_RecetarioDominicano.Models.TableClasses
 
         public int RecipeId { get; set; }
         public int IngredientId { get; set; }
+        public int RecipeIngredientQuantity { get; set; }
         public DateTime CreatedDateTime { get; set; }
         public DateTime ModifiedDateTime { get; set; }
     }

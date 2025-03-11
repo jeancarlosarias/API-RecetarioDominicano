@@ -75,6 +75,8 @@ namespace API_RecetarioDominicano.Controllers
                     {
                         p.IngredientId,
                         p.IngredientName,
+                        p.IngredientUrl,
+                        p.IngredientUnit,
                         p.IsExternal,
                         p.IdExternal,
                         p.CreatedDateTime,
@@ -107,6 +109,8 @@ namespace API_RecetarioDominicano.Controllers
                         {
                             p.IngredientId,
                             p.IngredientName,
+                            p.IngredientUrl,
+                            p.IngredientUnit,
                             p.IsExternal,
                             p.IdExternal,
                             p.CreatedDateTime,
@@ -200,6 +204,8 @@ namespace API_RecetarioDominicano.Controllers
                 }
 
                 recpTbl.IngredientName = recp.IngredientName;
+                recpTbl.IngredientUrl = recp.IngredientUrl;
+                recpTbl.IngredientUnit = recp.IngredientUnit;
                 recpTbl.IsExternal = recp.IsExternal;
                 recpTbl.IdExternal = recp.IdExternal;
                 recpTbl.ModifiedDateTime = DateTime.UtcNow;

@@ -85,6 +85,7 @@ namespace API_RecetarioDominicano.Controllers
                         p.RecipeIngredientId,
                         p.IngredientId,
                         p.RecipeId,
+                        p.RecipeIngredientQuantity,
                         p.CreatedDateTime,
                         p.ModifiedDateTime
                     }).ToListAsync();
@@ -116,6 +117,7 @@ namespace API_RecetarioDominicano.Controllers
                             p.RecipeIngredientId,
                             p.IngredientId,
                             p.RecipeId,
+                            p.RecipeIngredientQuantity,
                             p.CreatedDateTime,
                             p.ModifiedDateTime
                         }).ToListAsync();
@@ -208,6 +210,7 @@ namespace API_RecetarioDominicano.Controllers
 
                 recpTbl.RecipeId = recp.RecipeId;
                 recpTbl.IngredientId = recp.IngredientId;
+                recpTbl.RecipeIngredientQuantity = recp.RecipeIngredientQuantity;
                 recpTbl.ModifiedDateTime = DateTime.UtcNow;
 
                 _context.RecipeIngredientTbl.Update(recpTbl);

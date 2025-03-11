@@ -83,7 +83,9 @@ namespace API_RecetarioDominicano.Controllers
                     {
                         p.RecipeId,
                         p.UserId,
+                        p.CategoryId,
                         p.RecipeName,
+                        p.RecipeUrl,
                         p.RecipeDescription,
                         p.RecipeInstruction,
                         p.RecipePreparationTime,
@@ -120,7 +122,9 @@ namespace API_RecetarioDominicano.Controllers
                         {
                             p.RecipeId,
                             p.UserId,
+                            p.CategoryId,
                             p.RecipeName,
+                            p.RecipeUrl,
                             p.RecipeDescription,
                             p.RecipeInstruction,
                             p.RecipePreparationTime,
@@ -218,6 +222,8 @@ namespace API_RecetarioDominicano.Controllers
                 }
 
                 recpTbl.RecipeName = recp.RecipeName;
+                recpTbl.CategoryId = recp.CategoryId;
+                recpTbl.RecipeUrl = recp.RecipeUrl;
                 recpTbl.RecipeDescription = recp.RecipeDescription;
                 recpTbl.RecipeInstruction = recp.RecipeInstruction;
                 recpTbl.RecipePreparationTime = recp.RecipePreparationTime;
